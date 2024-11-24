@@ -17,6 +17,26 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+
+        PgUp {
+            bindings = <&kp PG_UP>;
+            key-positions = <41 23>;
+        };
+
+        PgDown {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <41 35>;
+        };
+
+        Home {
+            bindings = <&kp HOME>;
+            key-positions = <41 22>;
+        };
+
+        End {
+            bindings = <&kp END>;
+            key-positions = <41 34>;
+        };
     };
 
     behaviors {
